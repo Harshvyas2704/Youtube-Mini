@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    width: 98vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px red solid; */
+    height: 4vw;
+    align-items: center;
+}
+#left{
+    display: flex;
+    width: 14vw;
+    justify-content: space-around;
+    /* border: 1px red solid; */
+    color: white;
+
+}
+#show_videos {
+    width: 90vw;
+    margin: auto;
+    display: grid;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3%;
+}
+#show_videos img{
+    width: 20vw;
+    height: 15vw;
+}
+.fa-youtube{
+    color: red;
+    font-size: 1.7em;
+}
+.fa-bars{
+    font-size: 1.7em;
+}
+#left a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: bold;
+
+}
+/* left style ends */
+
+#center{
+
+    display: flex;
+    justify-content: space-around;
+    width: 728px;
+}
+#query{
+    width: 525px;
+    padding: 9px;
+}
+#center div{
+    display: flex;
+}
+.fa-magnifying-glass{
+    font-size: 1.6em;
+    margin-top: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+.fa-microphone{
+    font-size: 1.4em;
+    margin-top: 4px;
+    color: white;
+}
+#right{
+    display: flex;
+    justify-content: space-around;
+    width: 15vw;
+}
+.fa-solid{
+    font-size: 1.6em;
+    color: white;
+}
+.fa-regular{
+    font-size: 1.6em;
+    color: white;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42af971d0e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="left">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div>
+                <i class="fab fa-youtube"></i>
+                <a href="index.html">YouTube</a>
+            </div>
+        </div>
+
+        <!-- center HTML starts -->
+
+        <div id="center">
+            <div>
+                <input type="text" id="query" placeholder="Search">
+                <!-- <button onclick="searchVideos()">Search</button> -->
+                <i class="fa-solid fa-magnifying-glass" onclick="searchVideos()"></i>
+                <i class="fa-solid fa-microphone"></i>
+            </div>
+        </div>
+
+        <!-- center HTML ends -->
+        <!-- Right HTML start -->
+        <div id="right">
+            <i class="fa-solid fa-grip-vertical"></i>
+            <i class="fa-solid fa-video"></i>
+            <i class="fa-regular  fa-bell"></i>
+        </div>
+        <!-- Right HTML ends -->
+    </header>
+    <!-- <h1>Youtube</h1> -->
+    <div id="show_videos"></div>
+</body>
+</html>
+
+<script src="index.js"></script>
+<script src="pre.js"></script>
